@@ -1,9 +1,9 @@
 {{ define "main" }}
     <div class="uk-section">
         <div class="uk-container uk-container-large">
-            <div class="uk-grid-small uk-child-width-1-3@s" uk-grid uk-lightbox>
+            <div class="uk-grid-small uk-child-width-1-3@s" uk-grid>
                 <div class="uk-text-center">
-                    <a href="/passcode">
+                    <a href="https://ambiancehome-portfolio.netlify.app/">
                         <div class="uk-inline uk-cover-container" style="background: #000;">
                             <canvas height="450" width="500"></canvas>
                             <div class="uk-overlay uk-position-center uk-light">
@@ -14,7 +14,7 @@
                     </a>
                 </div>
                 {{ range .Params.gallery }}
-                <div>
+                <div uk-lightbox>
                     <a href="{{ . }}">
                         <div class="uk-inline uk-cover-container">
                             <img src="{{ . }}" alt="" uk-cover>
