@@ -2,44 +2,45 @@ baseURL = "https://ambiancehome.netlify.app/"
 enableRobotsTXT = "true"
 languageCode = "en-us"
 [[menu.main]]
-name = "Shop"
-weight = 6
-url = "/shop"
+name = "Contact"
+parent = "About Us"
+url = "/contact"
+weight = 3
 [[menu.main]]
-name = "Showroom"
-weight = 5
+name = "Team"
+parent = "About Us"
+url = "/team"
+weight = 2
 [[menu.main]]
 name = "Projects"
 parent = "Luxury Staging"
 weight = 1
 [[menu.main]]
-name = "Luxury Staging"
-weight = 4
-[[menu.main]]
 name = "Portfolio"
 parent = "Interior Design"
-weight = 1
 url = "/interior-design-portfolio/"
+weight = 1
+[[menu.main]]
+name = "About"
+parent = "About Us"
+url = "/company"
+weight = 1
+[[menu.main]]
+name = "Shop"
+url = "/shop"
+weight = 6
+[[menu.main]]
+name = "Showroom"
+url = "/showroom"
+weight = 5
+[[menu.main]]
+name = "Luxury Staging"
+weight = 4
 [[menu.main]]
 name = "Interior Design"
 weight = 3
 [[menu.main]]
-name = "Contact"
-parent = "About"
-weight = 3
-url = "/contact"
-[[menu.main]]
-name = "Team"
-parent = "About"
-weight = 2
-url = "/team"
-[[menu.main]]
 name = "About Us"
-parent = "About"
-weight = 1
-url = "/company"
-[[menu.main]]
-name = "About"
 weight = 2
 [[menu.main]]
 name = "Home"
@@ -47,5 +48,5 @@ url = "/"
 weight = 1
 [taxonomies]
 category = "categories"
-tag = "tags"
 portfolio = "portfolios"
+tag = "tags"
