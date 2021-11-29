@@ -3,7 +3,7 @@
         <div class="uk-container uk-container-large">
             <div class="uk-grid-small uk-child-width-1-3@s" uk-grid>
                 <div class="uk-text-center">
-                    <a href="https://ambiancehome-portfolio.netlify.app/">
+                    <a href="#modal-password" uk-toggle>
                         <div class="uk-inline uk-cover-container" style="background: #000;">
                             <canvas height="450" width="500"></canvas>
                             <div class="uk-overlay uk-position-center uk-light">
@@ -24,6 +24,15 @@
                 </div>
                 {{ end }}
             </div>
+        </div>
+    </div>
+    <div id="modal-password" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light">
+    
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <h2>Special Access Only</h2>
+            <p>This portfolio page is password protected. To request the password, please email <a href="mailto:info@ocambiance.com">info@ocambiance.com</a></p>
+            <a href="https://ambiancehome-portfolio.netlify.app/" class="uk-button uk-button-primary">Proceed</a>
         </div>
     </div>
 {{ end }}
