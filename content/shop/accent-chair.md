@@ -2,6 +2,7 @@
 brand = "Lifestyle Furniture"
 description = "Once you find the spot for this chair, it won't be leaving your living room anytime soon. With its sleek modern looks and uber-comfortable design, this chair will make you want to curl up with a good book or binge on Netflix marathon even more!"
 dimension = "40.4\"W x 40.4\"D x 25\"H"
+furnitures = ["Living Room"]
 gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1637562053/navid-ziaolhagh/ambiance-home/ACCENT_CHAIR_14438_1.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1637562043/navid-ziaolhagh/ambiance-home/ACCENT_CHAIR_14438_3.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1637562053/navid-ziaolhagh/ambiance-home/ACCENT_CHAIR_14438_2.jpg"]
 meta_description = ""
 price = "$1,195"
