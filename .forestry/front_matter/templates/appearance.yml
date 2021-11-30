@@ -40,48 +40,5 @@ fields:
       max: 
       step: 
   label: Branding
-- name: footer
-  type: field_group
-  config: {}
-  fields:
-  - name: footer_bio
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Footer Bio
-  - name: disclaimer
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Disclaimer
-  - name: important_documents
-    type: field_group_list
-    fields:
-    - name: document
-      type: file
-      config:
-        maxSize: 64
-      label: Document
-    - name: name_of_document
-      type: text
-      config:
-        required: false
-      label: Name of Document
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: Important Documents
-    description: Upload important documents and policies that will display in the
-      footer of the website.
-  label: Footer
 pages:
 - data/appearance.yml
