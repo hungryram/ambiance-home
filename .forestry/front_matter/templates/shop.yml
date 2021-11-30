@@ -8,22 +8,13 @@ fields:
     required: false
   label: Title
 - name: furnitures
-  type: select
-  default: []
+  type: list
   config:
-    required: false
-    options:
-    - Bedroom
-    - Decor
-    - Dining Room
-    - Living Room
-    - Office
-    - Outdoor
+    use_select: true
+    min: 
+    max: 
     source:
       type: simple
-      section: 
-      file: 
-      path: 
   label: Category
 - name: price
   type: text
