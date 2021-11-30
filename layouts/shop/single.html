@@ -22,11 +22,8 @@
                 </div>
                 <div class="uk-width-1-2@s">
                     <h2 class="uk-text-uppercase">{{ .Title }}</h2>
-                    <p class="uk-text-uppercase uk-text-bold">Woodrow Brand</p>
-                    <p>{{ .Params.price }}</p>
-                    {{ if .Params.description }}
-                        {{ .Params.description }}
-                    {{ end }}
+                    <p class="uk-text-bold">{{ .Params.price }}</p>
+                    {{ .Content }}
                     <div class="uk-margin-medium-top">
                         <a href="" class="uk-button uk-button-primary" uk-toggle="target: #offcanvas-flip">I'm interested</a>
                     </div>
@@ -90,59 +87,9 @@
                     <p class="uk-text-uppercase">{{ .Params.sku }}</p class="uk-text-uppercase">
                 </div>
                 {{ end }}
-                {{ if .Params.brand }}
-                <div>
-                    <h4 class="uk-text-bold uk-text-uppercase">Brand</h4>
-                    <p class="uk-text-uppercase">{{ .Params.brand }}</p class="uk-text-uppercase">
-                </div>
-                {{ end }}
             </div>
         </div>
     </div>
-
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true" style="background: #F6F6F6">
-
-        <ul class="uk-slider-items uk-grid">
-            <li class="uk-width-1-2">
-                <div class="uk-panel uk-cover-container" uk-height-viewport="offset-bottom:40">
-                    <img src="https://ferreti.eu/app/uploads/2020/09/felicity_gall1-886x0-c-default.jpg" alt="" uk-cover>
-                </div>
-            </li>
-            <li class="uk-width-3-4">
-                <div class="uk-panel uk-cover-container" uk-height-viewport="offset-bottom:40">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1637562049/navid-ziaolhagh/ambiance-home/francesca-tosolini-lIVK3z606og-unsplash.jpg" alt="" uk-cover>
-
-                </div>
-            </li>
-            <li class="uk-width-3-4">
-                <div class="uk-panel uk-cover-container" uk-height-viewport="offset-bottom:40">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1637562052/navid-ziaolhagh/ambiance-home/240573644_141955678093874_1330773000826911428_n.jpg" alt="" uk-cover>
-
-                </div>
-            </li>
-            <li class="uk-width-3-4">
-                <div class="uk-panel uk-cover-container" uk-height-viewport="offset-bottom:40">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1637562052/navid-ziaolhagh/ambiance-home/10-waves.jpg" alt="" uk-cover>
-
-                </div>
-            </li>
-            <li class="uk-width-3-4">
-                <div class="uk-panel uk-cover-container" uk-height-viewport="offset-bottom:40">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1637562050/navid-ziaolhagh/ambiance-home/kitchen-luxury.jpg" alt="" uk-cover>
-                </div>
-            </li>
-        </ul>
-    
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-    
-    </div>
-
-<div class="uk-section" style="background: #F6F6F6">
-    <div class="uk-container">
-        {{ .Content }}
-    </div>
-</div>
 
 <div class="uk-section">
     <div class="uk-container">
