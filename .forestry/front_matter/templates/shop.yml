@@ -7,15 +7,6 @@ fields:
   config:
     required: false
   label: Title
-- name: furnitures
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: simple
-  label: Category
 - name: price
   type: text
   config:
@@ -40,6 +31,22 @@ fields:
   config:
     required: false
   label: SKU
+- name: furnitures
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Bedroom
+    - Decor
+    - Dining Room
+    - Living Room
+    - Office
+    - Outdoor
+  label: Category
 - name: search_engine_optimization
   type: field_group
   config: {}
