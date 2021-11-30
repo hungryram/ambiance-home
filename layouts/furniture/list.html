@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="uk-section">
+    <div class="uk-container uk-container-small uk-text-center">
+        <ul>
+            {{ range .Site.Taxonomies.furnitures }}
+              <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+{{ end }}
