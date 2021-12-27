@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/company/_index.md
   label: About
-  match: "**/*"
 - type: document
   path: data/profile.yml
   label: Profile
