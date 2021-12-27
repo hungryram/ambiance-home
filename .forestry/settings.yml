@@ -5,6 +5,10 @@ admin_path: static/admin
 webhook_url: 
 sections:
 - type: document
+  path: content/company/_index.md
+  label: About
+  match: "**/*"
+- type: document
   path: data/profile.yml
   label: Profile
 - type: document
@@ -43,7 +47,7 @@ sections:
   path: content/team/_index.md
   label: Team
 - type: document
-  path: content/about/_index.md
+  path: content/company/_index.md
   label: About
 - type: document
   path: content/contact/_index.md
