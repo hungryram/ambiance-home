@@ -1,0 +1,53 @@
+[[redirects]]
+  from = "/about-us-2/inspiration/"
+  to = "/company"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/low-price-guarantee/"
+  to = "/legal-policies"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/about-us-2/testimonials-2/"
+  to = "/company"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/about-us-2/faq/"
+  to = "/company"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/about-us-2/design-services/"
+  to = "/interior-design-portfolio/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/about-us-2/"
+  to = "/company"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/shipping-information/"
+  to = "/legal-policies"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/contacts/"
+  to = "/contact"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/about-us-2/design-services/"
+  to = "/interior-design-portfolio/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect

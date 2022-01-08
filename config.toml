@@ -7,11 +7,6 @@ parent = "About Us"
 url = "/contact"
 weight = 3
 [[menu.main]]
-name = "Team"
-parent = "About Us"
-url = "/team"
-weight = 2
-[[menu.main]]
 name = "Projects"
 parent = "Luxury Staging"
 weight = 1
