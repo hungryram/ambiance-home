@@ -9,7 +9,7 @@ branding:
   site_title: Ambiance Home
   logo: https://res.cloudinary.com/hungryram19/image/upload/v1637562050/navid-ziaolhagh/ambiance-home/logo_footer.png
   dark_logo: ''
-  favicon: ''
+  favicon: https://res.cloudinary.com/hungryram19/image/upload/v1643842925/navid-ziaolhagh/ambiance-home/ambiance-favicon_qbl2mw.png
   logo_width: 
 colors:
   button_background_color: ''
