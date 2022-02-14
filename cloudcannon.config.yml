@@ -36,8 +36,8 @@ _inputs:
     type: array
   photos:
     type: image
-  furniture:
-    label: category
+  furnitures:
+    label: Category
     type: select
     options:
       values:
