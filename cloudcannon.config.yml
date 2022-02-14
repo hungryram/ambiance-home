@@ -1,10 +1,21 @@
 collections_config:
   contact:
     disable_add: true
+    icon: contact_page
   company:
     disable_add: true
   interior-design-portfolio:
     disable_add: true
+  luxury-staging:
+    disable_add: true
+  showroom:
+    disable_add: true
+  team:
+    disable_add: true
+    icon: person_add
+  thank-you:
+    disable_add: true
+    icon: mark_email_read
 collection_groups:
   - heading: Profile and Settings
     collections:
@@ -20,3 +31,8 @@ collection_groups:
       - team
       - thank-you
       - pages
+_inputs:
+  gallery:
+    type: image
+  photos:
+    type: image
