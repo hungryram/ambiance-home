@@ -1,10 +1,162 @@
 {{ partial "global/head" . }}
 <main>
-{{ partial "home/hero" . }}
-{{ partial "home/intro" . }}
-{{ partial "home/featured" . }}
-{{ partial "home/product" . }}
 
+
+    <div class="uk-cover-container uk-flex uk-flex-center uk-flex-center" uk-height-viewport>
+        <div class="uk-position-top" style="z-index:1">
+            {{ partial "global/navbar" . }}
+        </div>
+        <video
+            src="https://res.cloudinary.com/hungryram19/video/upload/v1637562064/navid-ziaolhagh/ambiance-home/pexels-kindel-media-7578552.mp4"
+            autoplay loop muted playsinline uk-cover></video>
+        <div class="uk-hero-overlay uk-position-cover"></div>
+        <div class="uk-width-1-1">
+            <div class="uk-flex uk-flex-middle" uk-height-viewport>
+                <div class="uk-container">
+                    <div class="hero-text uk-card uk-text-center editable" uk-scrollspy="uk-animation-slide-bottom-small">
+                        <h1
+                            class="uk-white uk-text-center uk-text-light uk-text-uppercase uk-heading-medium uk-margin-remove">
+                            Ambiance Home</h1>
+                        <h2 class="uk-h4 uk-white uk-text-uppercase uk-margin-small-top">featuring a 50,000 sqft.
+                            showroom in the heart of South Orange County</h2>
+                        <div class="uk-margin-medium-top">
+                            <!--<a href="/contact" class="uk-button uk-button-primary">Contact</a>-->
+                            <a href="/shop" class="uk-button uk-button-secondary">Shop furniture</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="uk-section uk-section-small" style="padding-bottom: 20px;">
+        <div class="uk-container uk-container-large">
+            <div>
+                <div class="uk-flex uk-flex-center">
+                    <div class="uk-width-2xlarge uk-text-center">
+                        <div class="uk-card editable">
+                            <h2 class="uk-text-uppercase">Welcome to Ambiance Home</h2>
+                            <p>Luxury home décor that looks and feels opulent is hard to find. Ambiance Home makes it
+                                easy. With over 20 years of experience furnishing the most luxurious interiors, Ambiance
+                                provides designer goods of timeless style and quality.
+                            </p>
+                            <a href="/company" class="uk-button uk-button-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="uk-container uk-container-large">
+            <div class="uk-margin-medium-top uk-light">
+                <div class="uk-grid-small" uk-grid>
+                    <div class="uk-width-1-2@s">
+                        <a href="/interior-design-portfolio/">
+                            <div class="uk-cover-container">
+                                <img src="https://ssl.cdn-redfin.com/photo/45/bigphoto/131/OC21202131_3_2.jpg" alt=""
+                                    uk-cover>
+                                <canvas height="400"></canvas>
+                                <div class="uk-position-bottom uk-text-right featured-box">
+                                    <div class="uk-padding-small">
+                                        <h3 class="uk-text-uppercase">View Portfolio</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="uk-width-1-2@s">
+                        <a href="/showroom">
+                            <div class="uk-cover-container">
+                                <img src="https://res.cloudinary.com/hungryram19/image/upload/v1637562051/navid-ziaolhagh/ambiance-home/newport-interior.jpg"
+                                    alt="" uk-cover>
+                                <canvas height="400"></canvas>
+                                <div class="uk-position-bottom uk-text-right">
+                                    <div class="uk-padding-small">
+                                        <h3 class="uk-text-uppercase">View Showroom</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-section uk-section-small">
+        <div class="uk-container uk-container-large featured">
+            <!--  <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1635090908/Navid%20Ziaolhagh/Ambiance%20Home/pexels-max-vakhtbovych-6758776.jpg" alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h2 class="uk-card-title">Media Left</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                </div>
+            </div>  -->
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div>
+                    <div class="uk-card-body">
+                        <h2 class="uk-text-uppercase editable">Home Staging</h2>
+                        <p>Luxury home staging for agents, developers, and homeowners to stimulate high sale prices,
+                            fast closes, and even the option of turnkey services. Ambiance home creates a lucrative
+                            combination of timeless designs with the buyer in mind, as well as extensive PR, and
+                            marketing.</p>
+                        <a href="/" class="uk-button uk-button-primary">Learn more</a>
+                    </div>
+                </div>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1637562050/navid-ziaolhagh/ambiance-home/newport-beach.jpg"
+                        alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+            </div>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1637562462/navid-ziaolhagh/ambiance-home/staircasenew.jpg"
+                        alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h2 class="uk-text-uppercase editable">Interior Design</h2>
+                        <p class="editable">Interior design amplifies the opulence and usefulness of homes. Allow our highly experienced
+                            design team to introduce personality to each collection of home furnishings, and to help you
+                            create the lifestyle in your home that captures your own personality.</p>
+                        <a href="/" class="uk-button uk-button-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="uk-section uk-section-small">
+        <div class="uk-container uk-container-large">
+            <div class="uk-grid uk-margin-medium-bottom">
+                <div class="uk-width-1-2@s editable">
+                    <h2 class="uk-text-uppercase">Shop Furniture</h2>
+                </div>
+                <div class="uk-width-1-2 uk-text-right">
+                    <a href="/shop" class="uk-link-text uk-text-bold uk-text-uppercase"> &mdash; View all</a>
+                </div>
+            </div>
+            <div class="uk-position-relative uk-dark" tabindex="-1" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3@m uk-child-width-1-2@s uk-grid">
+                    {{ range where .Site.RegularPages "Type" "shop" }}
+                    <li>
+                        {{ partial "templates/shop" . }}
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
 </main>
 {{ partial "home/cta" . }}
 {{ partial "global/footer" . }}
