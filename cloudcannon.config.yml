@@ -3,6 +3,8 @@ collections_config:
     disable_add: true
   company:
     disable_add: true
+  interior_design_portfolio:
+    disable_add: true
 collection_groups:
   - heading: Profile and Settings
     collections:
