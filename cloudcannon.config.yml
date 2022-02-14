@@ -38,7 +38,7 @@ _inputs:
     type: image
   furnitures:
     label: Category
-    type: select
+    type: multiselect
     options:
       values:
         - Bedroom
