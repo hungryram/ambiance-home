@@ -1,3 +1,6 @@
+paths:
+  # The default location for newly uploaded files, relative to source
+  uploads: static/uploads/
 collections_config:
   pages:
     output: true

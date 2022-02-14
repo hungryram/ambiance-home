@@ -1,8 +1,8 @@
 +++
-meta_description = ""
 title = "CA Transparency in Supply Chain"
+[search_engine_optimization]
 title_tag = ""
-
+meta_description = ""
 +++
 Ambiance Home strives to maintain an ethical work environment that promotes dignity and respect and is committed to positive labor and environmental practices in its own facilities and at the facilities of its suppliers. The California Transparency in Supply Chains Act of 2010 requires retailers and manufacturers doing business in California, like Ambiance Home, to disclose their efforts to eradicate slavery and human trafficking from their direct supply chain to tangible goods offered for sale. Ambiance Home makes the following disclosures, as required by the Act and, with respect to its efforts to eradicate slavery and human trafficking from its direct supply chain for tangible goods offered for sale, and confirms that Ambiance Home employs the following practices:
 
