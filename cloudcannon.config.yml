@@ -1,4 +1,10 @@
 collections_config:
+  pages:
+    output: true
+    url: "/content/[slug]"
+    add_options:
+      - name: Add Page
+        href: "cloudcannon:explore/content/.md🆕/content/schemas/pages.md"
   contact:
     disable_add: true
     icon: contact_page
@@ -32,6 +38,8 @@ collection_groups:
       - thank-you
       - pages
 _inputs:
+  price:
+    comment: Include the dollar sign
   gallery:
     type: array
   photos:
