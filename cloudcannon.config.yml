@@ -1,0 +1,20 @@
+collections_config:
+  contact:
+    disable_add: true
+  company:
+    disable_add: true
+collections_group:
+  - heading: Profile and Settings
+    collections:
+      - data
+  - heading: Pages
+    collections:
+      - company
+      - contact
+      - interior-design-portfolio
+      - luxury-staging
+      - shop
+      - showroom
+      - team
+      - thank-you
+      - pages
