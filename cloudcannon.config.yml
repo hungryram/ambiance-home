@@ -36,3 +36,14 @@ _inputs:
     type: array
   photos:
     type: image
+  furniture:
+    label: category
+    type: select
+    options:
+      values:
+        - Bedroom
+        - Decor
+        - Outdoor
+        - Office
+        - Living Room
+        - Dining Room
