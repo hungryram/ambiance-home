@@ -33,6 +33,6 @@ collection_groups:
       - pages
 _inputs:
   gallery:
-    type: image
+    type: array
   photos:
     type: image
