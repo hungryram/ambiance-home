@@ -49,11 +49,6 @@ collection_groups:
 _inputs:
   price:
     comment: Include the dollar sign
-  gallery:
-    type: array
-    values:
-      value:
-        image:
   photos:
     type: image
   furnitures:
@@ -67,3 +62,9 @@ _inputs:
         - Office
         - Living Room
         - Dining Room
+_structures:
+  gallery:
+    type: array
+    values:
+      value:
+        image:
