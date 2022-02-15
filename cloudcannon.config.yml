@@ -51,6 +51,9 @@ _inputs:
     comment: Include the dollar sign
   gallery:
     type: array
+    values:
+      value:
+        image:
   photos:
     type: image
   furnitures:
