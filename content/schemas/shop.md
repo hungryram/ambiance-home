@@ -2,8 +2,8 @@
 title = ""
 price = ""
 dimension = ""
-furnitures = [""]
-gallery = [""]
+furnitures = []
+gallery = []
 sku = ""
 warranty = ""
 [search_engine_optimization]
