@@ -31,6 +31,9 @@ collections_config:
   thank-you:
     disable_add: true
     icon: mark_email_read
+    _enabled_editors:
+      - visual
+      - data
 collection_groups:
   - heading: Profile and Settings
     collections:
