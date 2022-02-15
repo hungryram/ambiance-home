@@ -47,6 +47,12 @@ collection_groups:
       - thank-you
       - pages
 _inputs:
+  logo_width:
+    type: number
+  logo:
+    type: image
+  favicon:
+    type: image
   price:
     comment: Include the dollar sign
   photos:

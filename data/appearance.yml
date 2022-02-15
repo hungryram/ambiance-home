@@ -1,41 +1,6 @@
 ---
-header:
-  top_header_color: ''
-  header_background_color: ''
-  transparent_background: false
-  enable_white_text: false
-  enable_white_text_top: false
 branding:
   site_title: Ambiance Home
   logo: https://res.cloudinary.com/hungryram19/image/upload/v1637562050/navid-ziaolhagh/ambiance-home/logo_footer.png
-  dark_logo: ''
   favicon: https://res.cloudinary.com/hungryram19/image/upload/v1643842925/navid-ziaolhagh/ambiance-home/ambiance-favicon_qbl2mw.png
   logo_width: 
-colors:
-  button_background_color: ''
-  button_text_color: ''
-  links: ''
-  accent: ''
-pages:
-  image: ''
-footer:
-  footer_background_color: ''
-  background_image: ''
-  enable_black_text: false
-  footer_bio: RN Insurance is a local insurance agency located in Lowell, MA. We are
-    committed to providing clients in MA and NH with the highest quality insurance
-    plans.
-  disclaimer: ''
-  equal_housing_logo: false
-  mls_logo: false
-  realtor_logo: false
-  important_documents: []
-sidebar:
-  sidebar: []
-  single_property_sidebar: false
-search_field:
-  disable_search: false
-  search_by_state: false
-  search_by_cities: false
-  search_by_properties: false
-  filter_animation: ''
